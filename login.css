@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-image: url("/img/fundo1.png");
+}
+
+/* HEADER */
+
+.home {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #131212;
+  padding: 10px;
+}
+
+.home img {
+  width: 180px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.home p {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+/* LOGIN */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 70%;
+  min-height: 60vh;
+
+  margin: 30px auto;
+
+  border-radius: 15px;
+  background: #131212;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+
+  width: 70%;
+
+  color: #ffffff;
+}
+
+#loginForm h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#loginForm label {
+  margin-bottom: 5px;
+}
+
+#loginForm input {
+  width: 100%;
+  height: 50px;
+
+  margin-bottom: 15px;
+
+  padding: 10px;
+
+  border: none;
+  border-radius: 8px;
+}
+
+/* BOTÃO */
+
+#loginForm button,
+a {
+  width: 20%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 10px;
+  border: 3px solid #7d5001;
+  border-radius: 10px;
+  background: #131212;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+#loginForm button:hover {
+  background: #7d5001;
+}
+
+button, a:active {
+   background: #303d00;
+}
+
+a:hover {
+   background: #7d5001;
+}
+
+/* MENSAGEM */
+
+#mensagem {
+  text-align: center;
+  margin-top: 15px;
+}

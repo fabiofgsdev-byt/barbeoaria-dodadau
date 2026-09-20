@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - Barbearia do Dadau</title>
+
+    <link rel="stylesheet" href="login.css">
+
+
+</head>
+
+<body>
+
+    <header class="home">
+
+        <h1>
+            <img src="/img/logo.png" alt="Logo da Barbearia do Dadau">
+        </h1>
+
+        <p>Área do barbeiro</p>
+
+            <a href="index.html" class="voltar">
+        voltar
+    </a>
+
+
+    </header>
+
+    <main class="login-container">
+
+        <form id="loginForm">
+
+            <h2>Login</h2>
+
+            <label for="usuario">Usuário</label>
+            <input
+                type="text"
+                id="usuario"
+                placeholder="Digite seu usuário"
+                required
+            >
+
+            <label for="senha">Senha</label>
+            <input
+                type="password"
+                id="senha"
+                placeholder="Digite sua senha"
+                required
+            >
+
+            <button type="submit">
+                Entrar
+            </button>
+
+            <p id="mensagem"></p>
+
+        </form>
+
+    </main>
+
+    <script src="login.js"></script>
+
+</body>
+
+</html>
