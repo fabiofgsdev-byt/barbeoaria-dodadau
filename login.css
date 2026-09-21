@@ -102,12 +102,13 @@ a {
   background: #7d5001;
 }
 
-button, a:active {
-   background: #303d00;
+a:active,
+button {
+  background: #303d00;
 }
 
 a:hover {
-   background: #7d5001;
+  background: #7d5001;
 }
 
 /* MENSAGEM */
@@ -115,4 +116,27 @@ a:hover {
 #mensagem {
   text-align: center;
   margin-top: 15px;
+}
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .home img {
+    width: 180px;
+    margin-left: 0;
+  }
+
+  .home h1,
+  h2 {
+    font-size: 35px;
+  }
+
+  #loginForm button,
+  a {
+    width: 100px;
+  }
+
 }
